@@ -1,0 +1,16 @@
+""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""Basic Configuration"""""""""""""""""""""""""
+""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+set mouse=a
+
+" Below configuration is to install 3rd party plugins in vim
+call plug#begin('~/.vim/plugged')
+" Make sure you use single quotes
+Plug 'https://github.com/kien/ctrlp.vim.git'
+Plug 'https://github.com/scrooloose/nerdtree.git'
+Plug 'https://github.com/vim-airline/vim-airline.git'
+Plug 'https://github.com/easymotion/vim-easymotion.git'
+Plug 'https://github.com/vim-syntastic/syntastic.git'
+" Initialize plugin system
+call plug#end()
